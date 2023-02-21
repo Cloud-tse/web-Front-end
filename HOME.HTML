@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>前端学习日记</title>
+</head>
+<body>
+    <style type="text/css"> p{text-indent:2em} </style>
+    <h1>前端学习日记</h1>
+    <h6>2023.2.21</h6>
+    <hr>
+    <h3>一、html-结构</h3>
+    <h3>二、css-表现</h3>
+    <h3>三、js-交互</h3>    
+    <h3>四、html-父子集、并列关系</h3>
+    <h3>五、html-双标签——需要包裹内容的标签</h3>
+    <h3>六、html-单标签——不需要包裹内容的标签</h3>
+    <h3>七、ctrl+D——全选某些行代码同样的数字</h3>
+    <h3>八、ctrl+/注释快捷键</h3>
+    <!-- 注释示意——不会在前端显示 -->
+    <h3>九、段落标签</h3>
+    <p>P-为段落标签。段落标签里面可以嵌套其他的html标签。</p>
+    <h3>十、文本格式化标签</h3>
+    <p>1. b/strong-加粗——<b>这是一句示例文本</b></p>
+    <p>2. u/ins-下划线——<u>这是一句示例文本</u></p>
+    <p>3. i/em-倾斜——<i>这是一句示例文本</i></p>
+    <p>4. s/del-删除线——<s>这是一句示例文本</s></p>
+    <p>5. b和strong都是使字体加粗。</p>
+    <p>区别一：但是strong的语义性更强烈，对于优化搜索来说更好， </p>
+    <p> 能让它知道你这里面的内容的语义效果，b只对视觉效果进行了强调，而语义上没有帮助。</p>
+    <p>区别二：strong是web标准中xhtml的标签，strong的意思是“强调”；b是html的，b的意思是bold（粗体）。</p>
+    <p>为了符合现在W3C的标准，推荐使用strong标签。</p>
+    <h3>十一、img图片标签</h3>
+    <img src="img-图片标签示例.jpg" width="500px" alt="img图片标签-示例" title="title-标签属性-图片提示文本">
+    <p>src——图片路径 </p>
+    <p>alt——替换文本，图片加载错误时显示</p> 
+    <p>title——图片提示文本</p>
+    <p>width——图片宽度属性</p> 
+    <p>height——图片高度属性</p>
+    <p>width和height只设置一个属性时，图片等比例缩小/放大</p>
+    <h3>十二、绝对/相对路径</h3>
+    <p>1. 绝对路径——指目录下的绝对位置，可直接打到目标位置，通常从盘符开始的路径</p>
+    <p>例如：</p>
+    <p>盘符开头:E:\前端学习\img-图片标签示例.jpg</p>
+    <p>完整的图片网址:https://www.ttartisan.com/static/upload/image/20230104/1672800604773052.jpg</p>
+    <p>2. 相对路径——从当前文件开始出发，找目标文件的过程</p>
+    <p>相对路径分为- <b>同级目录</b> - <b>下级目录</b> - <b>上级目录</b></p>
+    <p>同级目录——当前文件和目标文件在同一目录中</p>
+    <p>图片路径有两种写法</p>
+    <img src="img-图片标签示例.jpg" width="250px" alt="同级目录-直接输入文件名-示例" title="同级目录-直接输入文件名-示例">
+    <img src="./img-图片标签示例.jpg" width="250px" alt="同级目录-./文件名-示例" title="同级目录-./文件名-示例">
+    <p>下级目录——目标文件在下级目录中</p>
+    <img src="images/下级目录文件示例.jpg" width="250px" alt="下级目录-目录文件夹名/文件名-示例" title="下级目录-目录文件夹名/文件名-示例">
+
+</body>
+</html>
